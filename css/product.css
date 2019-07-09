@@ -1,0 +1,52 @@
+/****************************************************************
+ *																*		
+ * 						      代码库							*
+ *                        www.dmaku.com							*
+ *       		  努力创建完善、持续更新插件以及模板			*
+ * 																*
+****************************************************************/
+#sl_PicShow{width:500px;height: 485px; position: relative; float:left;}
+#sl_ImgBox{width:500px;height:368px;overflow: hidden;border: 1px solid #ccc; background:#fff;}
+.sl_SmallImgList{width:100%; margin: 10px auto;}
+.sl_wrapper{float: left;display: inline;margin:0px 8px;}
+#sl_ImgList div{border: 1px solid #ccc;background-color: white;width:60px;height:45px;overflow: hidden;margin: 0 3px;display: inline;float: left;cursor: pointer;}
+.wslp #sl_ImgList div{height: 45px;width: 60px}
+#sl_ImgList .active{border: 1px solid #ccc;}
+#sl_ImgList img{border: 0;}
+#imgList_prev, #imgList_next{width: 10px;height: 45px;display: block;float: left;  display: inline;cursor: pointer;}
+#imgList_prev{background: url(../images/left.gif) no-repeat;}
+#imgList_next{background: url(../images/right.gif) no-repeat;}
+#imgList_prev span, #imgList_next span{display: none;}
+.clearfix{float: none;clear: both;}
+.sl_zoom{float: left;position: relative;display:inline;cursor: pointer; width:100%; height:100%}
+.sl_zoom img{width:100%!important; height:auto!important;}
+div.zoomdiv{z-index: 100;position: absolute;top: 0px !important;left:531px !important;width: 200px;height: 200px;background: #ffffff;border: 1px solid #CCCCCC;display: none;text-align: center;overflow: hidden;}
+div.jqZoomPup{z-index: 10;visibility: hidden;position: absolute;top: 0px;left: 0px;width: 50px;height: 50px;border: 1px solid #aaa;background: #ffffff;opacity: 0.5;-moz-opacity: 0.5;-khtml-opacity: 0.5;filter: alpha(Opacity=50);}
+div.jqMagnifier{position: absolute;z-index:9;width: 23px;height: 23px;background: url(../images/magnifier.png) no-repeat;top:228px;right:1px;}
+#sl_ImgList div img{width:100%; height:auto!important;}
+
+
+/*产品*/
+.ny_proshow_top{width:100%; height:auto; overflow:hidden; margin-bottom:30px;}
+.ny_proshow_xx{margin-left:506px; height:100%; overflow:hidden}
+.ny_proshow_bottom{width:100%; height:auto; overflow:hidden}
+.proshow_xxk{color: #fff; font-size: 20px;font-weight: bold; border-left: 3px solid #2d66d9;width:100%; display:block; background: #323136;padding-left:20px; height:40px; line-height:40px;}
+.proshow_xx{font-size:14px; color:#666; line-height:30px; margin-top:10px;}
+.proshow_xx img{max-width:100%;}
+
+@media screen and (max-width: 414px){
+#proshow{ display:none;}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+

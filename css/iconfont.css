@@ -1,0 +1,38 @@
+/****************************************************************
+ *																*		
+ * 						      代码库							*
+ *                        www.dmaku.com							*
+ *       		  努力创建完善、持续更新插件以及模板			*
+ * 																*
+****************************************************************/
+
+@font-face {font-family: "iconfont";
+  src: url('../images/iconfont.eot'); /* IE9*/
+  src: url('../images/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
+  url('../images/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../images/iconfont.svg') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shouji:before { content: "\e65b"; }
+
+.icon-dian:before { content: "\e646"; }
+
+.icon-shouji-copy:before { content: "\e600"; }
+
+.icon-dianhua:before { content: "\e664"; }
+
+.icon-dizhi:before { content: "\e61e"; }
+
+.icon-shouji1:before { content: "\e623"; }
+
+.icon-duanxin:before { content: "\e665"; }
+
